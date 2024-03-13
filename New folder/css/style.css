@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.razorpay-payment-button{
+    padding: 20px;
+    width: 70%;
+    margin-left:5%;
+    border: 1px solid #075c04;
+    border-radius: 10px;
+    color: #075c04;
+    transition: 1s;
+    margin-top:10px;
+
+}
+
+.razorpay-payment-button:hover{
+    background-color: #075c04 ;
+    color: #fff;
+}
+
+#topbtn{
+    height: 30px;
+    width: 30px;
+    bottom: 20px;
+    right: 10px;
+    background-color: pink;
+    position: fixed;
+}
+#topbtn img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#dark-black
+{
+    background-color:#363636;
+}
+#dark-black1
+{
+    background-color:#434343;
+}
+#head{
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.2) ;
+    box-shadow: 0px 0px 5px 0px white
+}
+#navbar{
+    background-color: #e2e2e2;
+}
+#navbar a{
+    color: #000 !important;
+
+}
+.navbar{
+    height: 40px;
+    width: 100%;   
+}
+.navbar img{
+    height: 80px;
+}
+.navbar ul li a{
+    transition: 1s;
+    color: #fff !important;
+}
+.navbar ul li a:hover{
+    background-color:white;
+    -webkit-text-fill-color: black;
+}
+#slides{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#slides img{
+    height: 100%;
+    width: 100%
+}
+#indextopback{
+    background: url("../images/bann3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carousel-caption{
+    margin-bottom: 200px;
+}
+#social{
+    font-size: 35px;
+}
+#login{
+    background: rgba(0,0,0,0.6);
+}
+#dashboardfull{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+#sidebar{
+    width: 13%;
+    background: #000;
+    height: 100%;
+}
+#dashboard{
+    width: 87%;
+    background: #fff;
+    height: 100%;
+}
+
+#sidebar a{
+    width: 100%;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+#sidebar img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.sidenav .closebtn{
+    display: none;
+}
+
+#openbtn{
+    display: none;
+}
+#dashconbox{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px;
+}
+#sidebar a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #000;
+}
+
+#hire_lawyer_small_box img{
+    height: 200px;
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){ 
+#sidebar{
+    width: 25%;
+    background: #000;
+    height: 100%;
+}
+#dashboard{
+    width: 75%;
+    background: #fff;
+    height: 100%;
+}
+}
+
+@media screen and (max-width:769px){
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.sidenav .closebtn{
+    display: block;
+}
+#head{
+    height: auto;
+    width: 100%;
+    line-height: 0px;
+    font-size: 2.7vw;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+nav button{
+    background-color: white !important;
+}
+.navbar{
+    height: auto;
+}
+#slides{
+    height: 350px;
+}
+#slides img{
+    height: 350px;
+}
+#slideh1{
+    font-size: 30px;
+}
+#carousel-caption{
+    margin-bottom: 100px;
+}
+#sidebar{
+    width: 0px;
+}
+#dashboard{
+    width: 100%;
+}
+#openbtn{
+    display: block;
+}
+
+#dashboardfull{
+    width: 100%;
+    height: auto;
+    background: #000;
+}
+
+#hire_lawyer_small_box img{
+    height: 100px;
+}
+
+}

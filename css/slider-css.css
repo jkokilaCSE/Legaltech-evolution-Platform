@@ -1,0 +1,98 @@
+/*
+essential styles:
+these make the slideshow work
+*/
+#slides {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	height: 450px;
+}
+#slides > .item {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+	/*-webkit-transition: opacity 1s;*/
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+#slides > .item a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+#slides > .item .title-caption {
+	width: auto !important;
+	left: 0;
+	z-index: 100;
+	bottom: 0px;
+	margin: 0px auto;
+	display: none;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.45);
+	padding: 15px; 
+}
+#slides li:first-child {
+	opacity: 1;
+	z-index: 2;
+}
+#slides > .item.showing {
+	opacity: 1;
+	z-index: 2;
+}
+.controls {
+	display: inline-block;
+}
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide {
+	font-size: 40px;
+	padding: 0px;
+	box-sizing: border-box;
+	background: #333;
+	color: #fff;
+	background-size: cover;
+}
+.item img {
+	width: 100%;
+	max-height: 450px;
+}
+.banner {
+	position: relative;
+}
+.buttons {
+	position: absolute;
+	left:0px; right:0px; margin: 0px auto;
+	bottom: 10px;
+	z-index: 10;
+	font-size: 0px; max-width: 132px;
+}
+/*==================green.css=============
+=========================================*/
+.banner .controls {
+    background:#3B8A6D;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 0px 2px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; border-radius: 50%;
+}

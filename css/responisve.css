@@ -1,0 +1,330 @@
+@charset "utf-8";
+
+@media only screen and (max-width:980px) {
+	.form-group .text-right {
+    text-align: inherit;
+}
+#organizations ul li {width:48% !important;}
+}
+@media only screen and (max-width:767px) {
+
+    a.skiper.local.external,
+    a.local.covidbtn.external,
+    a#decreaseFont,
+    a#resetFont,
+    a#increaseFont,
+    .tourist-option li:after,
+    ul.slider-img {
+        display: none;
+    }
+	.covidbtn{display:none !important;
+	}
+.b-lead-r {
+    top: 5px !important;
+    right: 0px !important;
+}
+
+    li.navbar-form,
+    ul#textresizer {
+        display: flex;
+        align-items: center;
+    }
+
+    .top-nav ul.pwdarea {
+        margin-right: 0 !important;
+        padding: 0px
+    }
+
+    .top-nav ul.pwdarea li {
+        padding: 0px 6px 0 3px !important;
+    }
+
+    .pwdarea .navbar-form {
+        margin: 2px 0px 2px 10px !important;
+    }
+
+    .logo {
+        padding: 5px 0px 5px 0px !important;
+    }
+
+    .primarymenu {
+        margin-top: 0 !important;
+    }
+
+    .pr-0 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .primarymenu .navbar-inverse {
+        background-color: #e79c74 !important;
+    }
+
+    .w-104 {
+        width: 104% !important;
+    }
+
+    .pbanner-0 {
+        padding: 0 !important;
+    }
+
+    .b-lead-l {
+        top: 0px !important;
+        left: 0px !important;
+    }
+
+    .b-lead {
+        position: relative !important;
+        padding: 10px !important;
+        max-width: 100% !important;
+        margin: 0px auto;
+        overflow: hidden;
+        border-radius: 0px;
+    }
+
+    .b-lead img {
+        max-height: 75px !important;
+        margin: 0px 15px 0px 15px !important;
+        float: left !important;
+    }
+
+    .b-lead h4 {
+        text-align: left !important;
+    }
+
+    .b-lead p {
+        text-align: left !important;
+    }
+
+    .breaking-news-ticker {
+        width: 98%;
+    }
+
+    .bn-news ul li a {
+        font-size: 0.9em;
+    }
+
+    .bn-label {
+        width: 25% !important;
+        padding: 0 8px !important;
+        font-size: 0.9em !important;
+    }
+
+    .title h1 {
+        font-size: 28px;
+    }
+
+    .helplineicon {
+        position: relative !important;
+        display: block;
+        right: 8px !important;
+        top: 10px !important;
+    }
+
+    .helplineicon img {
+        max-width: 135px;
+    }
+
+    .helplineicon img,
+    .governancelink {
+        margin: 0px 0px 0 0px !important;
+    }
+
+    .primarymenu .navbar-nav,
+    .online-link,
+    .hexagon,
+    .tourist-option,
+    .governancelink,
+    .footerbtm ul,
+    #mlas ul,
+    #departments ul,
+    #organizations ul,
+    #institutions ul,
+    .web-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .online-link li {
+        width: 100% !important;
+        border-right: none !important;
+        border-bottom: 1px solid #ccc !important;
+    }
+
+    .hexagon li {
+        width: 75% !important;
+        padding: 0px !important;
+        display: block !important;
+        margin: 0px auto;
+    }
+
+    .hexagon li a {
+        padding: 50px 30px !important;
+    }
+
+    .mb-3 {
+        margin-bottom: 15px;
+    }
+
+    #map-svg,
+    #mlas ul li,
+    #departments ul li,
+    #organizations ul li,
+    #institutions ul li {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+
+    #map-svg {
+        padding-left: 0px;
+        margin-top: 0;
+        min-height: inherit;
+    }
+
+    .tourist-option {
+        margin: 0px auto 0px auto !important;
+        background-image: none !important;
+    }
+
+    .tourist-option li {
+        position: initial !important;
+    }
+
+    .governancelink>li {
+        padding: 0 !important;
+        border-right: none !important;
+    }
+
+    #lokbhawan {
+        min-height: 500px;
+        background-position: bottom;
+        background-size: 85%;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .footerbtm ul li a {
+        border-right: 0 !important;
+        padding: 4px 8px !important;
+    }
+
+    .social-icon ul {
+        display: flex !important;
+        justify-content: space-evenly !important;
+        width: 100% !important;
+        flex-direction: row !important;
+    }
+
+    .innerpagebg {
+        background-image: none !important;
+        background-color: #84accf !important;
+    }
+
+    .social-icon ul a {
+        line-height: 25px !important;
+    }
+
+    .contentarea {
+        padding: 10px !important;
+    }
+
+    .inheading {
+        padding: 30px 0px !important;
+    }
+
+    .max-width {
+        max-width: 330px !important;
+    }
+
+    .breadcrumb>li+li:before {
+        padding: 0 0px !important;
+    }
+
+    .breadcrumb li {
+        margin: 0px 3px !important;
+    }
+
+    .primarymenu .navbar-nav {
+        float: none;
+        margin: 6px auto 0 auto;
+        display: table;
+        width: 100%;
+    }
+
+    .primarymenu .navbar-inverse .navbar-nav>li>a {
+        padding: 10px 10px;
+        float: none;
+        display: block;
+    }
+
+    .dropdown>a::after,
+    .home>a::after {
+        position: absolute;
+        right: 8px;
+    }
+
+    .navbar-nav>li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #342d2d;
+    }
+
+    .link-colors a {
+        color: #e37809;
+        word-break: break-all;
+    }
+
+    .primarymenu .navbar-inverse .navbar-nav>li>a {
+        float: none !important;
+        display: block !important;
+    }
+
+    .form-group .text-right {
+        text-align: inherit;
+    }
+
+    .form-group span {
+        color: red;
+    }
+
+    .tourist-option li {
+        width: 80% !important;
+        border: 1px solid rgba(255, 255, 255, .5);
+    }
+
+    #districts .list-flex li {
+        width: 45% !important
+    }
+    #departments ul li a label {
+        word-break: break-all;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .hexagon li {
+        width: 100% !important;
+        padding: 0px !important;
+        display: block !important;
+        margin: 0px auto;
+    }
+
+    .hexagon li a {
+        padding: 80px 45px !important;
+    }
+
+    #districts .list-flex li {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    #districts .list-flex li {
+        width: 100% !important;
+    }
+}
